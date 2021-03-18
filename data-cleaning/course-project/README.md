@@ -1,7 +1,6 @@
 ---
 title: "README"
 author: "Roberto v/d Meer"
-output: html_document
 ---
 
 ## Header 
