@@ -5,5 +5,7 @@ output: html_document
 ---
 
 ## Header 
+
 **bold**
-<http://rmarkdown.rstudio.com>(link)
+
+[link](http://rmarkdown.rstudio.com)
