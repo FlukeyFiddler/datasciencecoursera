@@ -41,6 +41,7 @@ stdMeansSet <- select(mergedSet, subject, activity, grep("mean\\(|std\\(", names
 
 # 3. Uses descriptive activity names to name the activities in the data set
 activityLabels <- read.table(file.path(dataPath, "activity_labels.txt"))
+descriptiveActivitiesSet <- mutate(stdMeansSet, activity = activityLabels[activity,2])
 
 # 4. Appropriately labels the data set with descriptive variable names. 
 
